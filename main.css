@@ -1,0 +1,42 @@
+#ava-title{
+	/*background-color: #FF00FF;*/
+	margin-top: 80px;
+	/*padding-top: 50px;*/
+}
+
+#ava-name{
+	/*background-color: #00ffff;*/
+	width:500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 40px;
+}
+
+#ava-image{
+	/*background-color: #f0f0f0;*/
+	
+}
+
+#ava-actualimage{
+	/*background-color: #fff000;*/
+	width:490px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ava-action{
+	margin-right: 30px;
+}
+
+#ava-count{
+
+}
+
+#ava-result{
+	/*background-color: #000fff;*/
+	font-size: 28px;
+	width:200px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
