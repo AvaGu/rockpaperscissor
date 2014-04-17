@@ -1,11 +1,39 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 	<script src="main.js"></script>
 </head>
 
 <body>
+
+
+<!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Result:</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 	<div id = "ava-title">
 		<h1 id = "ava-name">Rock, Paper and Scissors</h1>
 	</div>
@@ -13,17 +41,17 @@
 		<div id = "ava-actualimage">
 			<div class = "ava-imagediv">
 				<a href = "#" class = "ava-link">
-					<img onclick = "clickImage()" class = "ava-action" src = "rock.png" height="128" width="128"></img>
+					<img onclick = "clickImage('rock')" class = "ava-action" src = "rock.png" height="128" width="128"></img>
 				</a>
 			</div>
 			<div class = "ava-imagediv">
 				<a href = "#" class = "ava-link">
-					<img onclick = "clickImage()" class = "ava-action" src = "paper.png" height="128" width="128"></img>
+					<img onclick = "clickImage('paper')" class = "ava-action" src = "paper.png" height="128" width="128"></img>
 				</a>
 			</div>
 			<div class = "ava-imagediv">
 				<a href = "#" class = "ava-link">
-					<img onclick = "clickImage()" class = "ava-action" src = "scissor.png" height="128" width="128"></img>
+					<img onclick = "clickImage('scissor')" class = "ava-action" src = "scissor.png" height="128" width="128"></img>
 				</a>
 			</div>	
 		</div>
