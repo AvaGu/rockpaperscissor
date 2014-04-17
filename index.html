@@ -1,6 +1,8 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="jquery.min.js"></script>
+	<script src="main.js"></script>
 </head>
 
 <body>
@@ -9,9 +11,21 @@
 	</div>
 	<div id = "ava-image">
 		<div id = "ava-actualimage">
-			<img class = "ava-action" src = "rock.png" height="128" width="128"></img>
-			<img class = "ava-action" src = "paper.png" height="128" width="128"></img>
-			<img class = "ava-action" src = "scissor.png" height="128" width="128"></img>
+			<div class = "ava-imagediv">
+				<a href = "#" class = "ava-link">
+					<img onclick = "clickImage()" class = "ava-action" src = "rock.png" height="128" width="128"></img>
+				</a>
+			</div>
+			<div class = "ava-imagediv">
+				<a href = "#" class = "ava-link">
+					<img onclick = "clickImage()" class = "ava-action" src = "paper.png" height="128" width="128"></img>
+				</a>
+			</div>
+			<div class = "ava-imagediv">
+				<a href = "#" class = "ava-link">
+					<img onclick = "clickImage()" class = "ava-action" src = "scissor.png" height="128" width="128"></img>
+				</a>
+			</div>	
 		</div>
 	<div>
 

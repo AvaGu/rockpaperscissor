@@ -12,6 +12,12 @@
 	font-size: 40px;
 }
 
+a:hover img{
+	/*background-color: #5500ff;*/
+	width:135px;
+	height:135px;
+}
+
 #ava-image{
 	/*background-color: #f0f0f0;*/
 	
@@ -19,13 +25,23 @@
 
 #ava-actualimage{
 	/*background-color: #fff000;*/
-	width:490px;
+	width:500px;
+	height:150px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .ava-action{
 	margin-right: 30px;
+}
+
+.ava-link{
+	text-decoration:none;
+}
+
+.ava-imagediv{
+	width:33%;
+	float:left;
 }
 
 #ava-count{
